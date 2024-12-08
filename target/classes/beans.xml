@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="student" class="KLEF.Hib_inh.Student">
+        <constructor-arg value="32267"/>
+        <constructor-arg value="VIGHNESH"/>
+        <constructor-arg value="Male"/>
+        <constructor-arg value="19"/>
+        <constructor-arg value="2005-05-12"/> <!-- Adjust date format as needed -->
+    </bean>
+</beans>
